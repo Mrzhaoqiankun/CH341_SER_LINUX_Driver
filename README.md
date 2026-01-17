@@ -22,3 +22,13 @@ If the device works well, the driver will created tty devices named "ttyCH341USB
 ## Note
 
 Any question, you can send feedback to mail: tech@wch.cn
+
+## 文件夹内编译驱动模块
+
+   进入driver文件夹内修改Makefile
+   设置交叉编译工具链CROSS_COMPILE
+   设置架构ARCH
+   内核源码路径KERNEL_DIR
+
+   make 编译
+   make clean 清理文件夹
